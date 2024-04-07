@@ -73,8 +73,8 @@ function App() {
             </div>
             <div className="flex flex-col justify-center m-3">
               <div className="text-center">
-                <Typography variant="h6">Tech that i have worked with (scrollable)</Typography>
-                <List style={{maxHeight: 100,overflow:'auto'}}>
+                <Typography variant="h6">Tech that i have worked with <b>(SCROLLABLE)</b></Typography>
+                <List style={{maxHeight: 100,overflow:'auto'}} className='bg-lime-200'>
                   <div>Java (spring mvc,hibernate)</div>
                   <div>SQL(mysql,pl/sql,mariadb)</div>
                   <div>Cloud solutions (AWS,GCP,Digital Ocean)</div>
@@ -124,7 +124,7 @@ function App() {
                    2.) A database to store all the watch listed items along with the users that are watching them.
                 </ListItem>
                 <ListItem>
-                   3.) A backend that will constantly poll the database and the markets so that users will be notified if the items is equal to or under their requested price.
+                   3.) A backend that will constantly poll the database and the markets so that users will be notified if the item's price is equal to or under their requested price.
                 </ListItem>
                </List>
               This was accomplished with NextJs,MariaDB, and go-lang respectively.
