@@ -127,7 +127,7 @@ function App() {
       <div className="mt-10">
         <Typography id="projects" className="text-center" variant="h3">Projects</Typography>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col mb-32 sm:mb-52">
         <Typography className="text-center" variant="h5"><LinkIcon/> <Link target="_blank" rel="noopener" href="https://ipenales.com:3000">cs2 skin notifier</Link></Typography>
         <Typography className="text-center" variant="h5"><GitHubIcon/> <Link target="_blank" rel="noopener" href="https://github.com/navibryle/cs2-skin-notif.git">Web app code</Link></Typography>
         <Typography className="text-center" variant="h5"><GitHubIcon/> <Link target="_blank" rel="noopener" href="https://github.com/navibryle/cs2-notif-service">Service code</Link></Typography>
