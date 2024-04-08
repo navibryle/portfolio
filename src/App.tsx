@@ -24,8 +24,8 @@ function App() {
   return (
 
     <div >
-      <div className="flex flex-col sm:flex-row justify-between">
-          <div className="text-center sm:w-9/12 m-3">
+      <div className="flex flex-col lg:flex-row justify-between">
+          <div className="text-center m-3 flex-grow">
             <Typography variant='h4'>Who am I?</Typography>
             <Typography paragraph={true}>
               My name is <Link target="_blank" rel="noopener" href="https://www.linkedin.com/in/ivan-penales/?originalSubdomain=ca"><b>Ivan Penales</b></Link> I am a developer currently working at <Link target="_blank" rel="noopener" href="https://www.haemonetics.com/">HAE</Link>. <br/>
