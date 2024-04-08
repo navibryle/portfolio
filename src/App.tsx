@@ -18,7 +18,7 @@ const TabPanel = (props:{value:number,idx:number,children:React.ReactNode,classN
 
 function App() {
   const [tabIdx,setTabIdx] = useState(0);
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     setTabIdx(newValue);
   };
   return (
