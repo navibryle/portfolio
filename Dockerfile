@@ -7,4 +7,4 @@ RUN git clone https://github.com/navibryle/portfolio.git
 WORKDIR /home/portfolio
 RUN npm i && npm run build
 WORKDIR /home/portfolio/dist
-CMD npx http-server -p 3000 
+ENTRYPOINT ["./startup.sh"]
